@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #8d8c8c;
+  color: #fff;   
+}
+
+.logo {
+  margin: 0;
+  display: inline-table;
+}
+
+.search-bar {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.button-home,
+.button-group,
+.button-article,
+.button-comunit {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.button-perfile,
+.button-confi {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.right-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button-perfile,
+.button-confi {
+  margin-left: auto;
+  background-color: transparent;
+}

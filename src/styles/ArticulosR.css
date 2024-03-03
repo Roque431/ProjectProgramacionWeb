@@ -1,0 +1,59 @@
+.articulos-recientes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 600%;
+    margin-top: 10px;
+  }
+  
+  .articulo {
+    width: calc(33.333% - 20px);
+  }
+  
+  .card {
+    background-color:#f9f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+    margin-top: -60px;
+
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .card-text {    
+    font-size: 14px;
+    color: #333;
+    
+  }
+  
+  .btn {
+    display: block;
+    margin-left: 90px;
+    margin-top: 12px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }

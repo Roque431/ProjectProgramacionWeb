@@ -1,0 +1,30 @@
+.bu-login {
+  position: absolute;
+  width: 340px;
+  height: 82px;
+  left: 550px;
+  top: 632px;
+  background: #d9d9d9;
+  border-radius: 50px;
+}
+
+.register{
+  position:absolute;
+  top: 535px;
+  left: 85px;
+  color: black;
+}
+
+.button{
+  position: absolute;
+  top: 480px;
+  left: 145px;
+}
+
+.link{
+  position: absolute;
+  top: 550px;
+  left: 220px;
+  color: black;
+}
+

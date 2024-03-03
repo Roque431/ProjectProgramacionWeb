@@ -1,0 +1,195 @@
+.main{
+ 
+ margin-left: 350px;
+ margin-top: 10px;
+}
+.post {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.like-count{
+display: inline-table;
+ margin-top: -4%;
+  font-size: 7x;
+  color: #555;
+  transition: transform 0.4s ease-out;
+
+}
+.user-info {
+  
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-top: -7%;
+  margin-left: 10%;
+}
+
+.time-ago {
+  font-size: 0.8em;
+  color: #999;
+  margin-left: 45px;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #555;
+  display: inline-table;
+}
+.comment-button,
+.share-button,
+.register-button {
+  background-color: transparent;
+  color: #555;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment-content {
+  font-style: italic;
+  
+}
+
+.event {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+ width: 500px;
+}
+
+.event-title {
+  color: #007bff;
+}
+.like-icon{
+ 
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px; 
+    color: #555;
+    transition: color 0.3s ease;
+    border: 10px;
+  margin-right: 5px;
+  color: #33343a;
+  transition: color 0.3s ease; 
+}
+.like-icon.active {
+  color: red;
+}
+.content-publish{
+
+  background-color:  #D9D9D9;
+  ;
+  color: #fff;  
+  width: 460px;
+  padding: 40px;
+margin-right: 25px;
+}
+.publication-bar{
+  width: 400px;
+  margin-top: 0%;
+  border: 100px;
+
+}
+.profile-publish{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: -20px;
+  
+}
+.buttons{ 
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 40px;
+  margin-left: 9%; 
+}
+.button-multi,
+.button-Event,
+.button-write{
+ display: flex;
+ background-color: transparent;
+ font-style: italic;
+ border: none;
+ cursor: pointer;
+ 
+}
+.i-icon{
+  margin-left: 95%;
+  margin-top: -30px;
+}
+.button-icon{
+  background-color: transparent;
+  border: none;
+cursor: pointer;  
+}
+.content-publish{
+  margin: 20px;
+ margin-left: 2px;
+}
+.img-ima{
+  width: 250px;
+}
+.app{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.column-container {
+  
+  margin-left: 0px;
+margin-top: -10%
+}
+
+.column-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: -66%;
+  margin-left: 10px;
+}
+/* MiComponente.css */
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+
+
+
+
