@@ -80,7 +80,7 @@ const Filtrado = () => {
     <div className="contenedor">
       <input type="text" placeholder="Filtrar por" className="input" />
       <input  type="text" placeholder="categorias eventos" className="boton"></input>
-      <button className="boton">Etiquetas: ciclo 2023-2024</button>
+      <button className="boton">Etiquetas:ciclo 2023-2024</button>
     </div>
   );
 };
